@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>konghulu-projects</artifactId>
+        <groupId>com.konghulu</groupId>
+        <version>0.0.1-SNAPSHOT</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+
+    <artifactId>konghulu-topic</artifactId>
+    <packaging>pom</packaging>
+    <modules>
+        <module>konghulu-topic-api</module>
+        <module>konghulu-topic-core</module>
+        <module>konghulu-topic-server</module>
+    </modules>
+
+
+</project>
