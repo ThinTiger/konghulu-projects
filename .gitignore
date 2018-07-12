@@ -25,4 +25,4 @@
 /.nb-gradle/
 
 .class
-/target
+/.mvn/
