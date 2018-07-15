@@ -20,5 +20,9 @@
             <groupId>com.konghulu</groupId>
             <artifactId>konghulu-user-api</artifactId>
         </dependency>
+        <dependency>
+            <groupId>com.konghulu</groupId>
+            <artifactId>konghulu-topic-api</artifactId>
+        </dependency>
     </dependencies>
 </project>

@@ -1,6 +1,7 @@
 package com.konghulu.gateway.config;
 
 import com.konghulu.gateway.filter.AuthFilter;
+import com.konghulu.gateway.filter.ErrorFitler;
 import com.konghulu.gateway.filter.ResponseFilter;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
@@ -14,7 +15,12 @@ public class FilterConfig {
     }
 
     @Bean
-    public ResponseFilter errorFilter() {
+    public ResponseFilter responseFilter() {
 	return new ResponseFilter();
+    }
+
+    @Bean
+    public ErrorFitler errorFitler(){
+        return new ErrorFitler();
     }
 }

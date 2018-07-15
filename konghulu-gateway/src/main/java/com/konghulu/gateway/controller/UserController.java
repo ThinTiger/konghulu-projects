@@ -14,7 +14,7 @@ public class UserController {
     UserFacade userFacade;
 
     @RequestMapping("/getUser")
-    public UserRes getUser(Integer id){
-        return userFacade.getById(id);
+    public UserRes getUser(Integer id) {
+	return userFacade.getById(id);
     }
 }
