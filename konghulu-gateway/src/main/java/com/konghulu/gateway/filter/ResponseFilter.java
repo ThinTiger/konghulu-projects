@@ -27,8 +27,6 @@ public class ResponseFilter extends ZuulFilter {
     @Override
     public Object run() throws ZuulException {
         System.out.println("response Filter!~");
-	RequestContext ctx = RequestContext.getCurrentContext();
-	ctx.setResponseBody(ctx.getResponseBody() + "~~~fitler append str!~");
 	return null;
     }
 }
