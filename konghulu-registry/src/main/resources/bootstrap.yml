@@ -1,0 +1,6 @@
+spring:
+  profiles:
+    active: ${DEPLOY_ENV}
+
+konghulu:
+  helloStr: G
