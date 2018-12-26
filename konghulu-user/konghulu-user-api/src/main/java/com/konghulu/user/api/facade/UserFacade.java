@@ -6,7 +6,6 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
-@FeignClient(value = "konghulu-user-server")
 public interface UserFacade {
 
     @RequestMapping("/getById")
